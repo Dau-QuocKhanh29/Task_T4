@@ -1,0 +1,311 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+/* LEFT */
+.login-left {
+  flex: 1;
+  padding: 60px;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.login-left h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.login-left span {
+  color: #2563eb;
+}
+
+.login-left p {
+  color: #6b7280;
+  max-width: 400px;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+/* RIGHT */
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+  margin-bottom: 10px;
+}
+
+.login-box p {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.forgot {
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 10px 0;
+  color: #999;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white;
+}
+/* BACKGROUND */
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #e0f2fe, #f0f9ff);
+}
+
+/* LEFT */
+.login-left {
+  flex: 1;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+/* TEXT */
+.login-left h1 {
+  font-size: 40px;
+  margin: 20px 0;
+  line-height: 1.3;
+}
+
+.login-left span {
+  color: #2563eb;
+}
+
+.login-left p {
+  color: #64748b;
+  max-width: 420px;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.stat-box {
+  background: rgba(255,255,255,0.6);
+  padding: 15px 25px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+/* RIGHT */
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.login-box {
+  width: 360px;
+  padding: 35px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.login-box:hover {
+  transform: translateY(-5px);
+}
+
+/* INPUT */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: 0.2s;
+}
+
+.login-box input:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 5px rgba(37,99,235,0.4);
+}
+
+/* OPTIONS */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.forgot {
+  color: #2563eb;
+  cursor: pointer;
+}
+
+/* BUTTON */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(37,99,235,0.3);
+}
+
+/* ✨ HOVER TEXT EFFECT */
+.hover-text {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.hover-text:hover {
+  color: #2563eb;
+  transform: translateX(5px);
+  text-shadow: 0 5px 15px rgba(37,99,235,0.3);
+}
+/* OPTIONS */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+/* CUSTOM CHECKBOX */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Ẩn checkbox mặc định */
+.checkbox input {
+  display: none;
+}
+
+/* box custom */
+.checkmark {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #cbd5f5;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+}
+
+/* khi checked */
+.checkbox input:checked + .checkmark {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+/* dấu tick */
+.checkbox input:checked + .checkmark::after {
+  content: "✔";
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 12px;
+  color: white;
+}
+
+/* hover */
+.checkbox:hover .checkmark {
+  border-color: #2563eb;
+}
