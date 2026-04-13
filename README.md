@@ -113,6 +113,11 @@ npm run dev
 ```
 
 ---
+<img width="1917" height="944" alt="image" src="https://github.com/user-attachments/assets/89f048c4-cbcd-49f3-a426-efc426c77e94" />
+<img width="1916" height="943" alt="image" src="https://github.com/user-attachments/assets/4acf3fac-91f2-446a-9511-88802f5bbce0" />
+<img width="1911" height="944" alt="image" src="https://github.com/user-attachments/assets/5f668d12-c25f-4f36-8106-63305cc39119" />
+
+
 
 ## Danh sách API cơ bản (Endpoints)
 
